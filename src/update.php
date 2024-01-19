@@ -7,11 +7,11 @@ require 'db-connect.php'
 
 <head>
     <meta charset="UTF-8" />
-    <title>商品更新</title>
+    <title>更新</title>
 </head>
 
 <body>
-    <h1>商品更新</h1>
+    <h1>レシピ更新</h1>
     <table>
         <tr>
             <th>レシピ名</th>
@@ -35,7 +35,7 @@ require 'db-connect.php'
         }
         ?>
     </table>
-    <a href="index.php">商品一覧へ戻る</a>
+    <a href="index.php">一覧へ戻る</a>
 </body>
 
 </html>
