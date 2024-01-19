@@ -8,7 +8,7 @@ require 'db-connect.php'
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>商品登録完了</title>
+    <title>登録完了</title>
 </head>
 <body>
     <?php
