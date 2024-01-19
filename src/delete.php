@@ -5,10 +5,10 @@ require 'db-connect.php'
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>商品削除</title>
+    <title>削除</title>
   </head>
   <body>
-    <h1>商品を削除しました</h1>
+    <h1>レシピを削除しました</h1>
     <?php
     $pdo=new PDO($connect, USER, PASS);
     $sql=$pdo->prepare('delete from Recipes where title=?');
