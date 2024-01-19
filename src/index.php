@@ -3,17 +3,17 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>商品一覧</title>
+  <title>レシピ一覧</title>
 </head>
 <?php require 'db-connect.php'?>
 <body>
-  <h1>商品一覧</h1>
+  <h1>レシピ一覧</h1>
   <table>
     <form action="update.php" method="post">
       <form action="delete.php" method="post">
         <tr>
-          <th>商品名</th>
-          <th>商品説明</th>
+          <th>レシピ名</th>
+          <th>レシピ説明</th>
           <th>材料</th>
           <th>削除</th>
         </tr>
