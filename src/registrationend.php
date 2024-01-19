@@ -7,14 +7,14 @@ require 'db-connect.php'
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>商品登録完了</title>
+    <title>登録完了</title>
 </head>
 
 <body>
 <table>
         <tr>
-          <th>商品名</th>
-          <th>商品説明</th>
+          <th>レシピ名</th>
+          <th>レシピ説明</th>
           <th>材料</th>
         </tr>
     <?php
@@ -57,7 +57,7 @@ require 'db-connect.php'
         <button type="submit">登録画面へ戻る</button>
     </form>
     <form action="index.php" method="post">
-        <button type="submit">商品一覧画面へ戻る</button>
+        <button type="submit">一覧画面へ戻る</button>
     </form>
 </body>
 
